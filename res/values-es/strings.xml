@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2015 The Pure Nexus Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="http://schemas.android.com/apk/res/android">
+  <!-- App Name -->
+    <string name="app_name">PureTools</string>
+
+  <!-- About Frag strings -->
+    <string name="about_frag_title">Acerca de PureNexus</string>
+    <string name="miscinfo_title">Información de la aplicación</string>
+    <string name="miscinfo_summary">Haga clic aquí para obtener detalles de la aplicación y créditos</string>
+    <string name="click1">No sería interesante si esto hizo algo?&#8230;</string>
+    <string name="click2">Aunque pulses %1$d veces no va a hacer nada&#8230; dejalo ya</string>
+    <string name="click3">&#8230; %1$d veces ? Bien, simplemente dejar de fumar. Voy a actuar como si nada, asi que dejado ya</string>
+
+  <!-- App picker intent stuff -->
+    <string name="apppicker_frag_title">Selector de aplicaciones</string>
+    <string name="apppick_custom">Personalizado</string>
+    <string name="apppick_apps">Aplicaciones</string>
+    <string name="apppick_shortcuts">Accesos directos</string>
+    <string name="screen_off">Apagar pantalla</string>
+    <string name="donothing">No hacer nada</string>
+
+  <!--App info dialog fragment -->
+    <string name="alertdiagtitle">Registro de cambios v1.0</string>
+    <string name="setpositive">Aceptar</string>
+    <string name="setnegative">Agradecimientos</string>
+    <string name="changelog"><![CDATA[
+&#8226; Una pequeña aplicación de ajustes muy chula<br />
+&#8226; Un montón de ajustes menores de la interfaz<br />
+&#160; &#8226; Cambio entre fragments y manejo de lista animados<br />
+&#160; &#8226; Opciones en la actionbar cuando se interactúa con el cajón de navegación<br />
+&#8226; Selector de color de margaritov/SlimRom modificado<br />
+&#160; &#8226; Añadido texto al selector de transparencia con porcentajes<br />
+&#160; &#8226; Arreglado un problema menor con el hex-picking int-to-HSV-to-int<br />
+&#160; &#8226; Diseño del selector de color editado para que se vea mejor en horizontal<br />
+&#160; &#8226; Añadido botón de reinicio al color por defecto en el selector<br />
+&#160; &#8226; Opciones de previsualización ajustables por pulsación larga<br />
+&#8226; Añadida opción para mostrar u ocultar aplicación en el cajón de aplicaciones<br />
+&#8226; Añadidos algunos extras divertidos<br />
+&#8226; libsuperuser de Chainfire incorporado para manejar tareas root<br />]]></string>
+  <string name="credits"><![CDATA[
+&#8226; Chainfire por la librería fácil de implementar libsuperuser<br />
+&#8226; margaritov/Slim ROM por la base del selector de colores<br />
+&#8226; Beans por la ROM y una excusa para cacharrear<br />
+&#8226; Cheekybastards (Descaradosbastardos) por estar a la altura de su nombre<br />
+&#8226; DaveyAnnihilation por toda su ayuda con la compatibilidad con los temas y por la estética en general<br />
+&#8226; Gunthermic, por el testeo y sus geniales ideas para el selector de color<br />
+&#8226; Todos los colaboradores de Stack Overflow u otros recursos para hacer apps en Java/Android<br />
+&#8226; Todos a los que no he mencionado pero deberían estar ahí<br />]]></string>
+
+  <!-- BuildProp editor -->
+    <string name="buildprop_frag_title">Editor Build Prop</string>
+    <string name="buildprop_frag_title2">Editar el Build Prop</string>
+    <string name="editprop_key">Clave de la propiedad</string>
+    <string name="editprop_name">Nombre de la propiedad</string>
+    <string name="editprop_unsaved_changes_title">Cambios sin guardar</string>
+    <string name="editprop_unsaved_changes_message">¿Quieres establecer esta propiedad?</string>
+    <string name="editprop_delete_item_title">Borrar elemento</string>
+    <string name="editprop_delete_item_message">¿Quieres eliminar esta propiedad?</string>
+    <string name="restore_loc">build.prop restaurado de %1$s</string>
+    <string name="edit_backup_loc">Edición guardada y copia de seguridad hecha en %1$s</string>
+    <string name="backup_loc">Copia de seguridad del build.prop en %1$s</string>
+    <string name="wait_title">Espera un segundo</string>
+    <string name="wait_message">Cargando y comprobando SuperUsuario&#8230;</string>
+
+  <!-- cLock -->
+    <string name="clock_frag_title">cLock</string>
+
+  <!-- Color picker strings -->
+    <string name="dialog_color_picker">Selector de color</string>
+    <string name="press_color_to_apply">Pulsa sobre el color para aplicar</string>
+    <string name="hex">Hexadecimal:</string>
+
+    <string name="hex_check_button_text">PREVISUALIZAR</string>
+    <string name="hex_reset_button_text">RESTABLECER</string>
+    <string name="longpress_info">Pulsación larga para guardar el color</string>
+
+  <!-- Content Description -->
+    <string name="desc_list_item_icon">Icono</string>
+
+  <!-- Device Frag strings -->
+    <string name="toolinfo_frag_title">Herramientas e Información</string>
+    <string name="device_info_title">Información del teléfono</string>
+    <string name="device_summ">Obtener información general sobre el dispositivo</string>
+    <string name="title_battery_history">Historial de la batería</string>
+    <string name="summary_battery_history">Resumen sobre el uso de la batería</string>
+    <string name="title_usage_statistics">Estadísticas de uso</string>
+    <string name="summary_usage_statistics">Resumen de uso por aplicación</string>
+    <string name="wifi_title">Información WiFi</string>
+    <string name="wifi_summary">Información relevante sobre varios bits del WiFi</string>
+    <string name="fiswitchtitle">Herramientas Project Fi</string>
+    <string name="fiswitchsummary">Pulsa para mostrar códigos del dial útiles</string>
+
+  <!-- Error strings -->
+    <string name="no_browser_error">Se necesita un navegador instalado!</string>
+    <string name="no_root_error">Root no disponible? Algunas funciones no funcionarán como debieran!</string>
+    <string name="general_error">Ocurrió un error</string>
+    <string name="no_room_error">No queda espacio en \/system - No se puede editar</string>
+    <string name="no_backup_error">Error: No existe copia de seguridad.</strin
+
+  <!-- FiSwitch Frag strings -->
+    <string name="fiswitch_frag_title">Interruptor fi</string>
+    <string name="dial1">Sprint</string>
+    <string name="dial1_sum">Forzar salto a Sprint</string>
+    <string name="dial2">T-Mobile</string>
+    <string name="dial2_sum">Forzar salto a T-Mobile</string>
+    <string name="dial3">Siguiente operadora</string>
+    <string name="dial3_sum">Salto de fuerza al portador de la siguiente</string>
+    <string name="dial4">Auto-switch</string>
+    <string name="dial4_sum">(Re) Habilitar la conmutación automática</string>
+    <string name="dial5">Reparar</string>
+    <string name="dial5_sum">Restablecer todo</string>
+    <string name="dial6">Información</string>
+    <string name="dial6_sum">Información actual de la red</string
+    
+  <!-- Lockscreen Fragment -->
+    <string name="lockscreen_frag_title">Pantalla de bloqueo</string>
+
+  <!-- Navdrawer categories -->
+    <string name="information_title">Información</string>
+    <string name="system_tools_title">Herramientas del sistema</string>
+
+  <!-- toolbar menu strings -->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_launchhide">Ocultar en cajón</string>
+    <string name="action_search">Buscar</string>
+    <string name="saveprop">Guardar</string>
+    <string name="discardprop">Descartar</string>
+    <string name="deleteprop">Borrar</string>
+    <string name="cancelprop">Cancelar</string>
+    <string name="editprop_backup">Copia de seguridad</string>
+    <string name="editprop_restore">Restaurar</string>
+    <string name="action_fabhide">Botón flotante</string>
+
+    <!-- WallpaperPicker -->
+    <string name="wallpaper_instructions">Definir fondo de pantalla</string>
+    <string name="image_load_fail">No se ha podido cargar la imagen</string>
+    <string name="wallpaper_load_fail">No se ha podido cargar la imagen como fondo de pantalla</string>
+    <plurals name="number_of_items_selected">
+        <item quantity="zero">%1$d Seleccionado</item>
+        <item quantity="one">%1$d Seleccionado</item>
+        <item quantity="other">%1$d Seleccionado</item>
+    </plurals>
+    <string name="wallpaper_accessibility_name">Fondo de pantalla %1$d of %2$d</string>
+    <string name="announce_selection">seleccionado <xliff:g id="label" example="Wallpaper 3 of 10">%1$s</xliff:g></string>
+    <string name="wallpaper_delete">Eliminar</string>
+    <string name="pick_image">Mis fotos</string>
+    <string name="pick_wallpaper">Fondos de pantalla</string>
+    <string name="crop_wallpaper">Recortar fondo de pantalla</string>
+</resources>
